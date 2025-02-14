@@ -7,7 +7,7 @@ function validarLogin() {
     const senhaCorreta = "030225";
 
     if (usuario === usuarioCorreto && senha === senhaCorreta) {
-        window.location.href = "pagina_inicial/index.html";
+        window.location.href = "pagina_inicial.html";
     } else {
         mensagem.textContent = "Usuário ou senha incorretos!";
     }
