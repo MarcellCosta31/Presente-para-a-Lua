@@ -1,0 +1,43 @@
+:root{
+    --cor1: #312229c7;
+    --cor2: #54101d;
+    --cor3: #47596f; 
+    --cor4: #b18653;
+    --cor5: #d5c5ae;
+}
+
+body{
+    background-image: url(af7ca3d393b33fdbb2bfd6e7e5154b19.jpg);
+}
+.login-container {
+    background: var(--cor1);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 80%;
+    left: 6%;
+    top: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+input {
+    text-align: center;
+    display: block;
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    border-radius: 4px;
+}
+button:hover {
+    background-color: #218838;
+}

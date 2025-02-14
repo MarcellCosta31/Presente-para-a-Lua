@@ -1,0 +1,47 @@
+:root{
+    --cor1: #312229;
+    --cor2: #54101d;
+    --cor3: #47596f; 
+    --cor4: #b18653;
+    --cor5: #d5c5ae;
+}
+body{
+    margin: 0px;
+    background-image: url(/imagens/pagina_inicial/02e936cadf15ed343f6a2ad07d43ab71.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    background-color: var(--cor5);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 55px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 140px;
+}
+.container:hover{
+    background-color: #b18653;
+}
+img{
+    width: 120px;
+}
+img#avatar{
+    border-radius: 50%;
+}
+h1{
+    margin: 0px;
+    color: red;
+}
+h2{
+    margin: 0px;
+    margin-bottom: 20px;
+    color: red;
+}
