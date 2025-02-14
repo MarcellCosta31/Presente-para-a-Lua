@@ -25,16 +25,17 @@ body{
     margin-left: 55px;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 140px;
+    width: 100px;
 }
 .container:hover{
     background-color: #b18653;
 }
 img{
-    width: 120px;
+    width: 90px;
 }
 img#avatar{
     border-radius: 50%;
+    width: 150px;
 }
 h1{
     margin: 0px;
